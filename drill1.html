@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pyscript.net/releases/2024.1.1/core.css">
+    <script type="module" src="https://pyscript.net/releases/2024.1.1/core.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>ICT 10 PYTHON</title>
+
+    <style>
+        body{
+            background-color: #CFC8E6;
+            display: flex;
+            justify-content: center;
+        }
+        #button1{
+            font-weight: bold;
+            font-family: "Lucida Console", "Courier New", monospace;
+            background-color: #B0A1E5;
+            color: white;
+        }
+        h1{
+            font-weight: bold;
+            color: #9481E6;
+            font-family: "Lucida Console", "Courier New", monospace;
+        }
+        p{
+            font-weight: bold;
+            color: #9481E6;
+            font-family: "Lucida Console", "Courier New", monospace;
+        }
+        input{
+            font-weight: bold;
+            font-family: "Lucida Console", "Courier New", monospace;
+        }
+        #container{
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 0 10px rgba(90, 0, 120, 0.2);
+            text-align: center;
+            width: 500px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <!-- to input the information -->
+        <h1>Find the Average</h1>
+        <p>Number 1:</p>
+        <input type="text" id="input1" class="form-control" placeholder="Enter a number...">
+
+    <br><br>
+
+        <p>Number 2:</p>
+        <input type="text" id="input2" class="form-control" placeholder="Enter a number...">
+
+    <br><br>
+        <!-- find the average -->
+        <button type="submit" class="btn btn-default" py-click="adding_numbers" id="button1">Solve</button>
+    
+    <br><br>
+        <!-- see if you passed or not -->
+        <p id="output1">Average:</p>
+        <p id="output2">Did you pass?</p>
+        
+    <br>
+        <!-- references -->
+         <a href="https://docs.google.com/document/d/1mep3CrNj1NENzAnTTNv1HH82UmGEWG4QmY4jS5_pzFo/edit?usp=sharing" target="new" style="font-size: 20px;">Sources</a>
+    </div>
+    <script type="py" src="drill1.py"></script>
+       
+</body>
+
+</html>
